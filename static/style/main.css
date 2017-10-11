@@ -1,9 +1,4 @@
-/* CSS Reset */
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
+/* No need for CSS Reset because of Bootstrap */
 h1 {
   color: red;
 }
