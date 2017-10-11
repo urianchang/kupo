@@ -3,7 +3,8 @@ $(document).ready(function() {
   $('[lang="zh-tw"]').hide();
 
   $('#translate-btn').click(function() {
-    console.log("translating...")
+    event.preventDefault();
+    // console.log("translating...")
     $('[lang="zh-tw"]').toggle();
     $('[lang="en"]').toggle();
   });
