@@ -1,0 +1,15 @@
+{
+  "short_name": "Urian ♥︎ Angela",
+  "name": "Anglea and Urian's Wedding",
+  "icons": [
+    {
+      "src": "happy_moogle.png",
+      "sizes": "210x200",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#FFB7C5",
+  "background_color": "#FFB7C5"
+}

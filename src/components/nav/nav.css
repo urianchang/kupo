@@ -1,0 +1,45 @@
+.cherry-blossom {
+  animation: cherry-blossom-spin infinite 20s linear;
+  height: 80px;
+  margin: 10px;
+  display: inline-block;
+}
+
+@keyframes cherry-blossom-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Navbar {
+  background-color: gray;
+  height: 60px;
+  text-align: center;
+}
+
+.Navlinks {
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Navlinks li {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+}
+
+.Navlink {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin: 0px 20px;
+  color: white;
+}
+
+.Navlink:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}
