@@ -2,7 +2,7 @@
   "name": "angela",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://urianchang.github.io/kupo",
+  "homepage": "http://angelaurian.life",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "material-ui": "^0.19.4",
