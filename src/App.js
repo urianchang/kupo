@@ -9,6 +9,7 @@ import {
 import Navbar from './components/nav';
 import Home from './components/Home';
 import NoMatch from './components/NoMatch';
+import PendingPage from './components/PendingPage';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/moogle' component={PendingPage} />
             <Route component = { NoMatch } />
           </Switch>
         </div>
