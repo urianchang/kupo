@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './ourstory.css';
 
+
 export default class OurStory extends Component {
   render() {
+    let theList = require('../guests.json');
+    theList.guest_list[1]["first_name"] = "hello world";
     return(
       <div>
         <h1>Angela and Urian</h1>
