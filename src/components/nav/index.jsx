@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import bg from './bg.svg';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './nav.css';
 
 class Navbar extends Component {
@@ -10,10 +10,38 @@ class Navbar extends Component {
         <img src={bg} className="header-bg" alt="header background" />
         <div className="navbar">
           <ul className="navlinks">
-            <li><Link className="navlink" to="/">Our Story</Link></li>
-            <li><Link className="navlink" to="/wedding">Wedding</Link></li>
-            <li><Link className="navlink" to="/events">Events</Link></li>
-            <li><Link className="navlink" to="/rsvp">RSVP</Link></li>
+            <li>
+                <NavLink
+                  className="navlink"
+                  activeClassName="active"
+                  exact to="/">
+                  Our Story
+                </NavLink>
+            </li>
+            <li>
+                <NavLink
+                  className="navlink"
+                  activeClassName="active"
+                  to="/wedding">
+                  Wedding
+                </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="navlink"
+                activeClassName="active"
+                to="/events">
+                Events
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="navlink"
+                activeClassName="active"
+                to="/rsvp">
+                RSVP
+              </NavLink>  
+            </li>
           </ul>
         </div>
       </div>
