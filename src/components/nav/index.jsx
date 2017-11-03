@@ -40,7 +40,7 @@ class Navbar extends Component {
                 activeClassName="active"
                 to="/rsvp">
                 RSVP
-              </NavLink>  
+              </NavLink>
             </li>
           </ul>
         </div>
