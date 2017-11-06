@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+}
+
+.header-bg {
+  height: 90px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("champagne.png");
+}
+
+.header-text {
+  font-family: Snell Roundhand, cursive;
+  color: black;
+  margin: 10px 0px 0px 0px;
+}

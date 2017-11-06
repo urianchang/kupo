@@ -1,19 +1,11 @@
-.header-bg {
-  width: 100%;
-  position: absolute;
-  /*z-index: -1;*/
-}
-
 .navbar {
-  background-color: #00BFFF;
+  background-color: #D3D3D3;
   opacity: 0.8;
   height: 45px;
   text-align: center;
 }
 
 .navlinks {
-  display: inline-block;
-  vertical-align: top;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -30,11 +22,12 @@
   border-bottom: 1px solid transparent;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  margin: 0px 20px;
-  color: white;
+  margin: 0px 15px;
+  color: #d8ad6c;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .navlink:hover, .active {
-  border-bottom: 1px solid white;
-  padding-bottom: 3px;
+  border-bottom: 1px solid #d8ad6c;
 }

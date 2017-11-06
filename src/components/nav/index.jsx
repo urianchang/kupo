@@ -1,13 +1,25 @@
 import React, { Component } from 'react';
-import bg from './bg.svg';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
+import './header.css';
+
+class Header extends Component {
+  render() {
+    return(
+      <div className="header">
+        <div className="header-bg"></div>
+        <h1 className="header-text">Angela & Urian</h1>
+      </div>
+    );
+  }
+}
+
 
 class Navbar extends Component {
   render() {
     return(
-      <div className="header">
-        <img src={bg} className="header-bg" alt="header background" />
+      <div>
+        <Header />
         <div className="navbar">
           <ul className="navlinks">
             <li>
