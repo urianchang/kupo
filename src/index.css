@@ -4,3 +4,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background: white;
 }
+
+.page-body {
+  margin-top: 185px;
+  z-index: 0;
+}

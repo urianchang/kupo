@@ -22,14 +22,16 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-            <Switch>
-              <Route exact path='/' component={OurStory} />
-              <Route exact path='/events' component={Events} />
-              <Route exact path='/wedding' component={Wedding} />
-              <Route exact path='/rsvp' component={Rsvp} />
-              <Route exact path='/kupo' component={PendingPage} />
-              <Route component={NoMatch} />
-            </Switch>
+            <div className="page-body">
+              <Switch>
+                <Route exact path='/' component={OurStory} />
+                <Route exact path='/events' component={Events} />
+                <Route exact path='/wedding' component={Wedding} />
+                <Route exact path='/rsvp' component={Rsvp} />
+                <Route exact path='/kupo' component={PendingPage} />
+                <Route component={NoMatch} />
+              </Switch>
+            </div>
           </div>
         </Router>
       );

@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 import './nav.css';
 import './header.css';
 
-class Header extends Component {
+class HeaderTop extends Component {
   render() {
     return(
-      <div className="header">
+      <div>
         <div className="header-bg"></div>
         <h1 className="header-text">Angela & Urian</h1>
       </div>
@@ -18,8 +18,8 @@ class Header extends Component {
 class Navbar extends Component {
   render() {
     return(
-      <div>
-        <Header />
+      <div className="header">
+        <HeaderTop />
         <div className="navbar">
           <ul className="navlinks">
             <li>
