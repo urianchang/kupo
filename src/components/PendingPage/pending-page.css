@@ -1,12 +1,11 @@
 .pending-page {
-  /*width: 100%;*/
   background-color: white;
   text-align: center;
 }
 
 .pending-text {
   color: #FFB7C5;
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .moogle-worker {
