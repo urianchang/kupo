@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 //: Import page/template components
-import Navbar from './components/nav';
+import Header from './components/Header';
 import OurStory from './components/OurStory';
 import NoMatch from './components/NoMatch';
 import PendingPage from './components/PendingPage';
@@ -21,7 +21,7 @@ class App extends Component {
       return (
         <Router>
           <div>
-            <Navbar />
+            <Header />
             <div className="page-body">
               <Switch>
                 <Route exact path='/' component={OurStory} />
