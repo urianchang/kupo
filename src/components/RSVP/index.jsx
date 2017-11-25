@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
+import './rsvp.css';
 
 export default class Rsvp extends Component {
-  // constructor(){
-  //   super();
-  //
-  // }
   render() {
-    // let theList = require('../guests.json');
-    // theList.guest_list[1]["first_name"] = "hello world";
     return(
-      <div>
-        Embed Google Form here
+      <div className="rsvp-form">
+        <iframe
+          title="Wedding RSVP Form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSf9nU6HWHLmBflyk5LfmpvjqZZybvMxHv49ymvNgcvsdAeqyw/viewform?embedded=true"
+          width="700"
+          height="1500"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0">
+          Loading...
+        </iframe>
       </div>
     );
   }
