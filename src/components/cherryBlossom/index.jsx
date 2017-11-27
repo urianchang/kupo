@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import cherryBlossom from './cherryBlossom.svg';
+import './cherryBlossom.css';
 
 export default class CherryBlossom extends Component {
   render() {
