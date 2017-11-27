@@ -20,6 +20,11 @@ const NavbarLinks = [
     'title': "Events"
   },
   {
+    'url': "/photos",
+    'exact': false,
+    'title': "Photos"
+  },
+  {
     'url': "/rsvp",
     'exact': false,
     'title': "RSVP"
@@ -48,7 +53,7 @@ class NavigationBar extends Component {
   makeLinks(params, i) {
     if (params['exact']) {
       return(
-        <li>
+        <li key={i}>
           <NavLink
             className="navlink"
             activeClassName="active"
@@ -59,7 +64,7 @@ class NavigationBar extends Component {
       );
     } else {
       return(
-        <li>
+        <li key={i}>
           <NavLink
             className="navlink"
             activeClassName="active"
@@ -70,7 +75,7 @@ class NavigationBar extends Component {
       );
     }
   }
-  
+
   render() {
     return(
       <div className="navbar">

@@ -8,4 +8,29 @@ body {
 .page-body {
   margin-top: 185px;
   z-index: 0;
+  text-align: center;
+}
+
+.important-text {
+  color: #d8ad6c;
+  /*font-weight: bold;*/
+  /*font-family: 'Indie Flower', cursive;*/
+  /*font-family: 'Spectral SC', serif;*/
+  font-family: 'Vollkorn SC', serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.image-60 {
+  width: 60%;
+}
+
+.image-50 {
+  width: 50%;
+}
+
+.left-aligned {
+  text-align: left;
+  margin: -10px 100px 0px 100px;
+  text-indent: 50px;
 }
