@@ -4,8 +4,8 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-
 import ScrollToTop from './components/ScrollToTop';
+import AuthPrompt from './components/AuthPrompt';
 
 //: Import page/template components
 import Header from './components/Header';
@@ -17,10 +17,20 @@ import Rsvp from './components/RSVP';
 import Wedding from './components/Wedding';
 import PhotoAlbum from './components/PhotoAlbum';
 
-class App extends Component {
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {isPublic: false};
+    this.checkReady = this.checkReady.bind(this);
+  }
+
+  checkReady(arg){
+    this.setState({isPublic: arg});
+  }
+
   render() {
-    const isReady = true;
-    if (isReady) {
+    const isPublic = this.state.isPublic;
+    if (isPublic) {
       return (
         <Router>
           <ScrollToTop>
@@ -44,15 +54,9 @@ class App extends Component {
     } else {
       return (
         <Router>
-          <div>
-            <Switch>
-              <Route component={PendingPage} />
-            </Switch>
-          </div>
+          <AuthPrompt checkReady={this.checkReady} />
         </Router>
       );
     }
   }
 }
-
-export default App;

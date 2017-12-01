@@ -5,6 +5,10 @@ body {
   background: white;
 }
 
+p {
+  font-size: 1em;
+}
+
 .page-body {
   margin-top: 185px;
   z-index: 0;
