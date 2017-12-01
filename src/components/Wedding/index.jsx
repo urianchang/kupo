@@ -58,7 +58,7 @@ export default class Wedding extends Component {
               </tr>
               <tr>
                 <td>3:30 PM</td>
-                <td>Celebration</td>
+                <td>Celebration 慶祝儀式</td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
