@@ -25,9 +25,10 @@
   margin: 0vw 2vw;
   color: #FFB7C5;
   font-size: 16px;
+  /*font-family: Snell Roundhand, cursive;*/
   text-transform: uppercase;
 }
 
-.navlink:hover, .active {
+.navlink:hover, .activated {
   border-bottom: 1px solid #FFB7C5;
 }

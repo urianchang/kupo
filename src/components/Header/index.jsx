@@ -56,7 +56,7 @@ class NavigationBar extends Component {
         <li key={i}>
           <NavLink
             className="navlink"
-            activeClassName="active"
+            activeClassName="activated"
             exact to={params['url']}>
             {params['title']}
           </NavLink>
@@ -67,7 +67,7 @@ class NavigationBar extends Component {
         <li key={i}>
           <NavLink
             className="navlink"
-            activeClassName="active"
+            activeClassName="activated"
             to={params['url']}>
             {params['title']}
           </NavLink>
