@@ -22,9 +22,8 @@
   border-bottom: 1px solid transparent;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  margin: 0px 15px;
+  margin: 0vw 2vw;
   color: #FFB7C5;
-  /*color: #d8ad6c;*/
   font-size: 16px;
   text-transform: uppercase;
 }
