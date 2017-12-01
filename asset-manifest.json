@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.b296d870.css",
-  "main.css.map": "static/css/main.b296d870.css.map",
-  "main.js": "static/js/main.645f1a71.js",
-  "main.js.map": "static/js/main.645f1a71.js.map",
-  "static/media/cherryBlossom.svg": "static/media/cherryBlossom.8e0477b9.svg",
-  "static/media/moogle_worker.png": "static/media/moogle_worker.592e00a2.png"
+  "main.css": "static/css/main.e6339def.css",
+  "main.css.map": "static/css/main.e6339def.css.map",
+  "main.js": "static/js/main.2f1ea383.js",
+  "main.js.map": "static/js/main.2f1ea383.js.map",
+  "static/media/champagne.png": "static/media/champagne.6c14124e.png",
+  "static/media/moogle_worker.png": "static/media/moogle_worker.592e00a2.png",
+  "static/media/tree-branch.svg": "static/media/tree-branch.2c2e779e.svg"
 }
