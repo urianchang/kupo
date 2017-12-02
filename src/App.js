@@ -5,7 +5,6 @@ import {
   Switch
 } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import AuthPrompt from './components/AuthPrompt';
 
 //: Import page/template components
 import Header from './components/Header';
@@ -18,19 +17,7 @@ import Wedding from './components/Wedding';
 import PhotoAlbum from './components/PhotoAlbum';
 
 export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {isPublic: false};
-    this.checkReady = this.checkReady.bind(this);
-  }
-
-  checkReady(arg){
-    this.setState({isPublic: arg});
-  }
-
   render() {
-    const isPublic = this.state.isPublic;
-    if (isPublic) {
       return (
         <Router>
           <ScrollToTop>
@@ -51,12 +38,5 @@ export default class App extends Component {
           </ScrollToTop>
         </Router>
       );
-    } else {
-      return (
-        <Router>
-          <AuthPrompt checkReady={this.checkReady} />
-        </Router>
-      );
-    }
   }
 }
