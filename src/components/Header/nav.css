@@ -24,7 +24,7 @@
   transition: 0.5s ease;
   margin: 0vw 2vw;
   color: #FFB7C5;
-  font-size: 16px;
+  font-size: calc(12px + 0.45vw);
   /*font-family: Snell Roundhand, cursive;*/
   text-transform: uppercase;
 }

@@ -25,8 +25,8 @@ export default class Events extends Component {
           <h2 className="important-text">
             Wednesday, April 11 - Snorkel Trip from Naha
           </h2>
-          <p>Details</p>
-          <p>Please contact us by DATE, if you would like to join</p>
+          <p>Details coming soon.</p>
+          <p>Please contact us by January 7, if you would like to join!</p>
         </div>
         <div className="event-container">
           <img src="https://media.xogrp.com/images/d3fdd8a8-e8dd-4fd0-ae39-68859124c733~rt_0-cr_0.0.749.375-rs_1024.h?compress=true"
@@ -35,16 +35,16 @@ export default class Events extends Component {
           <h2 className="important-text">
             Thursday, April 12 - Wedding Day
           </h2>
-          <p>Please see <Link to="/wedding">"Our Okinawa Wedding"</Link></p>
+          <p>Please see <Link to="/wedding">"Our Okinawa Wedding"</Link>.</p>
         </div>
         <div className="event-container">
-          <img src="https://i.imgur.com/PDlm4GV.jpg"
-            alt="Okinawa Churaumi Aquarium"
+          <img src="https://i.imgur.com/GN0TvaO.jpg"
+            alt="Okinawa Naha Shuri Castle"
             className="image-50" />
           <h2 className="important-text">
-            Friday, April 13 - ???
+            Friday, April 13 - Okinawa Adventures
           </h2>
-          <p>TBD</p>
+          <p>Details to be determined.</p>
         </div>
       </div>
     );
