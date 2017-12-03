@@ -19,7 +19,7 @@ import PhotoAlbum from './components/PhotoAlbum';
 export default class App extends Component {
   render() {
       return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <ScrollToTop>
             <div>
               <Header />
