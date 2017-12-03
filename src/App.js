@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
@@ -19,7 +19,7 @@ import PhotoAlbum from './components/PhotoAlbum';
 export default class App extends Component {
   render() {
       return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <ScrollToTop>
             <div>
               <Header />
