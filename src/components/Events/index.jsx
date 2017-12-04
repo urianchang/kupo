@@ -25,8 +25,8 @@ export default class Events extends Component {
           <h2 className="important-text">
             Wednesday, April 11 - Snorkel Trip from Naha
           </h2>
-          <p>Details coming soon.</p>
-          <p>Please contact us by January 7, if you would like to join!</p>
+          <p>We will be snorkeling around the Kerama Islands, departing from Naha.</p>
+          <p>Please contact us by December 29, if you would like to join!</p>
         </div>
         <div className="event-container">
           <img src="https://media.xogrp.com/images/d3fdd8a8-e8dd-4fd0-ae39-68859124c733~rt_0-cr_0.0.749.375-rs_1024.h?compress=true"
