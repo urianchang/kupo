@@ -95,12 +95,108 @@ let PHOTO_SET = [
     height: 3
   },
   {
+    src: "https://imgur.com/5SkWrJ5.jpg",
+    width: 4,
+    height: 3
+  },
+  {
     src: 'https://i.imgur.com/xIyCamg.jpg',
     width: 4,
     height: 3
   },
   {
     src: 'https://imgur.com/tx8HTsZ.jpg',
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/9TpU9Dz.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/LqANCyd.jpg",
+    width: 2,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/BXYMIFE.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/dmnWHyL.jpg",
+    width: 2,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/LQNpbf7.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/ZqxPwwN.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/8KvkDws.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/SjyZI2s.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/TkSMtWw.jpg",
+    width: 2,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/f5OREMK.jpg",
+    width: 4,
+    height: 3
+  },
+
+  {
+    src: "https://i.imgur.com/UceXlUd.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/QBEkN7t.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/ZAybe0l.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/QofOpOU.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/g9cL8dw.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/jojqHrk.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/f9anKeJ.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/5eryey4.jpg",
     width: 4,
     height: 3
   },
