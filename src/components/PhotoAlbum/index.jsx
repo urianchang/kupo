@@ -69,6 +69,9 @@ export default class PhotoAlbum extends Component {
                 currentImage={this.state.currentImage}
                 isOpen={this.state.lightboxIsOpen}
               />
+              <p>
+                Engagement photos taken by <a href="http://www.frankjleephotography.com/">Frank J Lee</a>
+              </p>
             </div>
           );
         }
