@@ -26,7 +26,7 @@ export default class Events extends Component {
             Wednesday, April 11 - Snorkel Trip from Naha
           </h2>
           <p>We will be snorkeling around the Kerama Islands, departing from Naha.</p>
-          <p>Please contact us by December 29, if you would like to join!</p>
+          <p>If you would like to join us, please RSVP by December 29: <a href="https://goo.gl/forms/8NfM2Jn1jHSMj2EC3">RSVP Form</a></p>
         </div>
         <div className="event-container">
           <img src="https://media.xogrp.com/images/d3fdd8a8-e8dd-4fd0-ae39-68859124c733~rt_0-cr_0.0.749.375-rs_1024.h?compress=true"
