@@ -23,7 +23,7 @@ export default class Wedding extends Component {
           Our Okinawa Wedding
         </h1>
         <div>
-          <p>Thursday, February 12th, 2017</p>
+          <p>Thursday, April 12th, 2018</p>
           <p>2:45 PM</p>
           <p>Attire: Island Elegant</p>
           <Link to="/rsvp">
