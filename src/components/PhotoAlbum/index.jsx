@@ -179,11 +179,6 @@ let PHOTO_SET = [
     height: 3
   },
   {
-    src: "https://i.imgur.com/QofOpOU.jpg",
-    width: 4,
-    height: 3
-  },
-  {
     src: "https://i.imgur.com/g9cL8dw.jpg",
     width: 4,
     height: 3
@@ -199,7 +194,12 @@ let PHOTO_SET = [
     height: 3
   },
   {
-    src: "https://i.imgur.com/5eryey4.jpg",
+    src: "https://i.imgur.com/fJn9Txs.jpg",
+    width: 4,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/QofOpOU.jpg",
     width: 4,
     height: 3
   },
