@@ -19,14 +19,13 @@ export default class Events extends Component {
           </p>
         </div>
         <div className="event-container">
-          <img src="https://i.imgur.com/hPZliPT.jpg"
-            alt="Kerama Islands"
+          <img src="https://i.imgur.com/GN0TvaO.jpg"
+            alt="Okinawa Naha Shuri Castle"
             className="image-50" />
           <h2 className="important-text">
-            Wednesday, April 11 - Snorkel Trip from Naha
+            Wednesday, April 11 - Okinawa Adventures
           </h2>
-          <p>We will be snorkeling around the Kerama Islands, departing from Naha.</p>
-          <p>If you would like to join us, please RSVP by December 29: <a href="https://goo.gl/forms/8NfM2Jn1jHSMj2EC3">RSVP Form</a></p>
+          <p>Details to be determined.</p>
         </div>
         <div className="event-container">
           <img src="https://media.xogrp.com/images/d3fdd8a8-e8dd-4fd0-ae39-68859124c733~rt_0-cr_0.0.749.375-rs_1024.h?compress=true"
@@ -38,13 +37,14 @@ export default class Events extends Component {
           <p>Please see <Link to="/wedding">"Our Okinawa Wedding"</Link>.</p>
         </div>
         <div className="event-container">
-          <img src="https://i.imgur.com/GN0TvaO.jpg"
-            alt="Okinawa Naha Shuri Castle"
+          <img src="https://i.imgur.com/hPZliPT.jpg"
+            alt="Kerama Islands"
             className="image-50" />
           <h2 className="important-text">
-            Friday, April 13 - Okinawa Adventures
+            Friday, April 13 - Snorkel Trip from Naha
           </h2>
-          <p>Details to be determined.</p>
+          <p>We will be snorkeling around the Kerama Islands, departing from Naha.</p>
+          <p>If you would like to join us, please RSVP by December 29: <a href="https://goo.gl/forms/8NfM2Jn1jHSMj2EC3">RSVP Form</a></p>
         </div>
       </div>
     );
