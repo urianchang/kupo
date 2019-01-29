@@ -1,9 +1,16 @@
 {
-  "main.css": "static/css/main.ec0de2a6.css",
-  "main.css.map": "static/css/main.ec0de2a6.css.map",
-  "main.js": "static/js/main.095825b0.js",
-  "main.js.map": "static/js/main.095825b0.js.map",
-  "static/media/champagne.png": "static/media/champagne.6c14124e.png",
-  "static/media/moogle_worker.png": "static/media/moogle_worker.592e00a2.png",
-  "static/media/tree-branch.svg": "static/media/tree-branch.2c2e779e.svg"
+  "main.css": "/kupo/static/css/main.ea63d045.chunk.css",
+  "main.js": "/kupo/static/js/main.6375827a.chunk.js",
+  "main.js.map": "/kupo/static/js/main.6375827a.chunk.js.map",
+  "static/js/1.7cd11f1b.chunk.js": "/kupo/static/js/1.7cd11f1b.chunk.js",
+  "static/js/1.7cd11f1b.chunk.js.map": "/kupo/static/js/1.7cd11f1b.chunk.js.map",
+  "runtime~main.js": "/kupo/static/js/runtime~main.2d89582f.js",
+  "runtime~main.js.map": "/kupo/static/js/runtime~main.2d89582f.js.map",
+  "static/css/main.ea63d045.chunk.css.map": "/kupo/static/css/main.ea63d045.chunk.css.map",
+  "static/media/moogle_worker.png": "/kupo/static/media/moogle_worker.592e00a2.png",
+  "static/media/header.css": "/kupo/static/media/champagne.6c14124e.png",
+  "static/media/tree-branch.svg": "/kupo/static/media/tree-branch.2c2e779e.svg",
+  "index.html": "/kupo/index.html",
+  "precache-manifest.7615e8a89b57e2291cbad1d772b33624.js": "/kupo/precache-manifest.7615e8a89b57e2291cbad1d772b33624.js",
+  "service-worker.js": "/kupo/service-worker.js"
 }
